@@ -27,9 +27,14 @@ class Profit(Resource):
 
 
 	def post(self):
-		request_body = request.get_json()
-		profit,res=self.find_max_profit(request_body)
-		resp={}
-		resp['profit']=profit
-		resp['movies']=res
+		try:
+			request_body = request.get_json()
+			if(not request_body):
+				return make_response("Empty Input",400)
+			profit,res=self.find_max_profit(request_body)
+			resp={}
+			resp['profit']=profit
+			resp['movies']=res
+		except Exception as e:
+			return make_response("Error Occured:"+str(e),404)
 		return make_response(jsonify(resp),200)
