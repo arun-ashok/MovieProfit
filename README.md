@@ -58,6 +58,9 @@ Server starts listening to APIs.
 
 **6. From POSTMAN , give input in JSON format.**
 
+API :**http://localhost:5000/movies/v1/profit**
+Request Type: **POST**
+
 Sample Input :
 
 [
