@@ -24,7 +24,7 @@ the API will return the total amount that he can make along with the final list 
 
         > cd Movies
         
-**3. Make sure python 3 is installed.**
+**3. Make sure python3 is installed.**
 
        >python --version
        Python 3.7.2
@@ -35,7 +35,7 @@ the API will return the total amount that he can make along with the final list 
         > virtualenv <virtualenv_name>
         > <virtualenv_name>\Scripts\activate
         
-**4. Install the reruired packages from requirements.txt file**
+**4. Install the required packages from requirements.txt file**
 
         > pip install -r requirements.txt
 
@@ -96,6 +96,8 @@ Sample Input :
   ],
   "profit": 2
 }
+
+"movies" are the list of movies he can select and "profit" gives the maximum profit he can make.
 
 
 
