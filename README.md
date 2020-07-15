@@ -53,7 +53,7 @@ the API will return the total amount that he can make along with the final list 
  * Debugger PIN: 210-114-321
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
         
-Server starts listening to APIS.
+Server starts listening to APIs.
 
 
 **6. From POSTMAN , give input in JSON format.**
@@ -96,6 +96,10 @@ Sample Input :
   ],
   "profit": 2
 }
+
+
+
+
 
 "movies" are the list of movies he can select and "profit" gives the maximum profit he can make.
 
